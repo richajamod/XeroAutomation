@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="com.xero.test.XeroTests" time="32.664" errors="0" skipped="0">
+<testsuite tests="3" failures="1" name="com.xero.test.XeroTests" time="0.01" errors="0" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.181-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/richirich/Documents/SeleniumTest/seleniumautomation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/richirich/Documents/AUTOMATION/REPO/XeroAutomation/xeroautomation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="test" value="XeroTests"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/richirich/Documents/SeleniumTest/seleniumautomation"/>
+    <property name="user.dir" value="/Users/richirich/Documents/AUTOMATION/REPO/XeroAutomation/xeroautomation"/>
     <property name="java.runtime.version" value="1.8.0_181-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -27,7 +27,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/richirich/Documents/SeleniumTest/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6547651926839954817.tmp"/>
+    <property name="classworlds.conf" value="/Users/richirich/Documents/AUTOMATION/WORKSPACE/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7358366022895451753.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/richirich/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -53,16 +53,26 @@
     <property name="java.ext.dirs" value="/Users/richirich/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/richirich/Documents/SeleniumTest/seleniumautomation/EMBEDDED"/>
+    <property name="maven.home" value="/Users/richirich/Documents/AUTOMATION/REPO/XeroAutomation/xeroautomation/EMBEDDED"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.xero.test.XeroTests" name="testcase01" time="10.558"/>
-  <testcase classname="com.xero.test.XeroTests" name="testcase02" time="5.346"/>
-  <testcase classname="com.xero.test.XeroTests" name="testcase03" time="4.518"/>
-  <testcase classname="com.xero.test.XeroTests" name="testcase04" time="4.727"/>
-  <testcase classname="com.xero.test.XeroTests" name="testcase05" time="7.515"/>
+  <testcase classname="com.xero.test.XeroTests" name="failTest" time="0.009">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.xero.test.XeroTests.failTest(XeroTests.java:77)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2401f4c3
+</system-out>
+  </testcase>
+  <testcase classname="com.xero.test.XeroTests" name="passTest" time="0.001"/>
+  <testcase classname="com.xero.test.XeroTests" name="skipTest" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

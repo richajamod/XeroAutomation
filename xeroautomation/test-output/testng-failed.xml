@@ -5,7 +5,11 @@
     <classes>
       <class name="com.xero.test.XeroTests">
         <methods>
-          <include name="testcase13"/>
+          <include name="failTest"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
+          <include name="skipTest"/>
         </methods>
       </class> <!-- com.xero.test.XeroTests -->
     </classes>

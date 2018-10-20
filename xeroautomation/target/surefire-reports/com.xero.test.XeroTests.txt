@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.xero.test.XeroTests
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.909 sec
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.829 sec <<< FAILURE!
+failTest(com.xero.test.XeroTests)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.xero.test.XeroTests.failTest(XeroTests.java:77)
+

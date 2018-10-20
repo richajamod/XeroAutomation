@@ -1,3 +1,5 @@
-/Users/richirich/Documents/SeleniumTest/seleniumautomation/src/main/java/com/xero/pageobjects/SignUp.java
-/Users/richirich/Documents/SeleniumTest/seleniumautomation/src/main/java/com/xero/pageobjects/HomePage.java
-/Users/richirich/Documents/SeleniumTest/seleniumautomation/src/main/java/com/xero/pageobjects/Login.java
+/Users/richirich/Documents/AUTOMATION/REPO/XeroAutomation/xeroautomation/src/main/java/com/xero/pageobjects/Organization.java
+/Users/richirich/Documents/AUTOMATION/REPO/XeroAutomation/xeroautomation/src/main/java/com/xero/pageobjects/SignUp.java
+/Users/richirich/Documents/AUTOMATION/REPO/XeroAutomation/xeroautomation/src/main/java/com/xero/pageobjects/Login.java
+/Users/richirich/Documents/AUTOMATION/REPO/XeroAutomation/xeroautomation/src/main/java/com/xero/pageobjects/LaunchApp.java
+/Users/richirich/Documents/AUTOMATION/REPO/XeroAutomation/xeroautomation/src/main/java/com/xero/pageobjects/HomePage.java

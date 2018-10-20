@@ -1,7 +1,5 @@
 package com.xero.test;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -300,10 +298,10 @@ public class XeroTests extends BaseTest {
 		homepage.clickUploadImage();
 		homepage.clickBrowseBtn();
 		homepage.clickUpload();
-			
-		
+
 		closeDriver();
 	}
+
 	@Test(groups = { "LOGIN" })
 	public void testcase13() {
 
@@ -319,14 +317,13 @@ public class XeroTests extends BaseTest {
 		login.clickLogin();
 
 		Organization organization = new Organization(driver);
-		
+
 		organization.clickMyXero();
 		organization.clickXero();
 		organization.clickAddOrg();
 		organization.addName();
 		closeDriver();
-		
-		
+
 	}
-	
+
 }
