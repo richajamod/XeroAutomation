@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.xero.test.XeroTests" duration-ms="32678" started-at="2018-10-20T01:06:47Z" finished-at="2018-10-20T01:07:20Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="32678" started-at="2018-10-20T01:06:47Z" finished-at="2018-10-20T01:07:20Z">
+      <class name="com.xero.test.XeroTests">
+        <test-method status="PASS" signature="testcase01()[pri:0, instance:com.xero.test.XeroTests@3796751b]" name="testcase01" duration-ms="10558" started-at="2018-10-19T18:06:47Z" finished-at="2018-10-19T18:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase01 -->
+        <test-method status="PASS" signature="testcase02()[pri:0, instance:com.xero.test.XeroTests@3796751b]" name="testcase02" duration-ms="5350" started-at="2018-10-19T18:06:57Z" finished-at="2018-10-19T18:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase02 -->
+        <test-method status="PASS" signature="testcase03()[pri:0, instance:com.xero.test.XeroTests@3796751b]" name="testcase03" duration-ms="4518" started-at="2018-10-19T18:07:03Z" finished-at="2018-10-19T18:07:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase03 -->
+        <test-method status="PASS" signature="testcase04()[pri:0, instance:com.xero.test.XeroTests@3796751b]" name="testcase04" duration-ms="4727" started-at="2018-10-19T18:07:07Z" finished-at="2018-10-19T18:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase04 -->
+        <test-method status="PASS" signature="testcase05()[pri:0, instance:com.xero.test.XeroTests@3796751b]" name="testcase05" duration-ms="7514" started-at="2018-10-19T18:07:12Z" finished-at="2018-10-19T18:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase05 -->
+      </class> <!-- com.xero.test.XeroTests -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.xero.test.XeroTests -->
+</testng-results>

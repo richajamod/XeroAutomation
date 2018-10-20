@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="XeroAutomationTests" verbose="1">
+
+	<groups>
+		<run>
+			<include name="SIGNUP" />
+		</run>
+	</groups>
+
+
+	<test name="XeroTests">
+		<packages>
+			<package name="com.xero.test.*" />
+		</packages>
+	</test>
+</suite>
